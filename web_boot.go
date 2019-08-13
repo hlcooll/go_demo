@@ -1,5 +1,8 @@
 package main
 
+/*
+rboot对话demo
+*/
 import (
 	"io/ioutil"
 	"log"
@@ -15,8 +18,8 @@ func main() {
 }
 
 func requestHandler(w http.ResponseWriter ,r *http.Request){
-     if r.Method == "POST" {
-		 body, err = ioutil.ReadAll(r.Body)
+	if r.Method == "POST" {
+		body, err := ioutil.ReadAll(r.Body)
 
-	 }
+	}
 }
