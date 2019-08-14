@@ -1,5 +1,8 @@
 package main
 
+/*
+goroutine并发
+*/
 import (
 	"fmt"
 	"time"
@@ -14,5 +17,7 @@ func say(s string) {
 
 func main() {
 	go say("world")
-	say("hello")
+	go say("hello")
+
+	time.Sleep(time.Second * 6)
 }
