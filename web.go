@@ -1,11 +1,9 @@
 package main
 
 import (
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"log"
 	"net/http"
-
-	_ "github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
 func sayhelloName11(w http.ResponseWriter, r *http.Request) {
@@ -30,7 +28,7 @@ func sayhelloName11(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	http.Handle("/metrics", prometheus.Handler())
+	http.Handle("/metrics", promhttp.Handler())
 	http.HandleFunc("/", sayhelloName11)     //设置访问的路由
 	err := http.ListenAndServe(":9090", nil) //设置监听的端口
 	if err != nil {
