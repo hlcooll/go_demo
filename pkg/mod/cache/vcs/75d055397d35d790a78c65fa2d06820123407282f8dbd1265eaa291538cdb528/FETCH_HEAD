@@ -1,0 +1,16 @@
+3c6690985f6878ca408c3e3e872f9082c4238ee0		branch 'base-for-ongardie-ebay-allocs' of https://github.com/cespare/xxhash
+de209a9ffae3256185a6bb135d1a0ada7b2b5f09		branch 'bench-module' of https://github.com/cespare/xxhash
+6e6013902ce9f911fd0b042e3510fd1c4b3e0f6e		branch 'digest' of https://github.com/cespare/xxhash
+de209a9ffae3256185a6bb135d1a0ada7b2b5f09		branch 'master' of https://github.com/cespare/xxhash
+b821ea84e368f8b58a4942d161447cff8eb1f34b		branch 'ongardie-ebay-allocs-followup' of https://github.com/cespare/xxhash
+27550bd85f9ffb7382cec35bf6efae4d6e9eeeb6		branch 'sse' of https://github.com/cespare/xxhash
+2833dafe377bb9fd95d5dbe2780b1176daf58c06		branch 'uninline' of https://github.com/cespare/xxhash
+3b82fb7d186719faeedd0c2864f868c74fbf79a1		branch 'v2' of https://github.com/cespare/xxhash
+30d0e5bcb75d96ed4140aa9fdd4a3df79f60747e		branch 'v2-binary-marshaler' of https://github.com/cespare/xxhash
+733af8e8a8dd8706a3fc084f59a52be2b20d688f		branch 'v2-cleanup' of https://github.com/cespare/xxhash
+7052e46dac0638e1fa34fac4c6af1c58fac7c102		branch 'v2-remove-18-fallback' of https://github.com/cespare/xxhash
+1daaa3d62e0a55ee42183e0351235a1648d9e4d5		branch 'writeBlocks-slice-pointer' of https://github.com/cespare/xxhash
+5c37fe3735342a2e0d01c87a907579987c8936cc		tag 'v1.0.0' of https://github.com/cespare/xxhash
+569f7c8abf1f58d9043ab804d364483cb1c853b6		tag 'v1.1.0' of https://github.com/cespare/xxhash
+31de4ebecdd30cfd37dbd7915da2b2e3ac06f400		tag 'v2.0.0' of https://github.com/cespare/xxhash
+132f268b56ab98e19d1f24eaef83e5b98863bbe9		tag 'v2.1.0' of https://github.com/cespare/xxhash
